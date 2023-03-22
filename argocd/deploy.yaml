@@ -1,0 +1,20 @@
+kind: Deployment
+metadata:
+  labels:
+    app: argodemo
+  name: argodemo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: argodemo
+  template:
+    metadata:
+      labels:
+        app: argodemo
+    spec:
+      containers:
+      - image: httpd:2.4
+        name: httpd
+        ports:
+        - containerPort: 80
