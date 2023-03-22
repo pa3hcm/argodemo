@@ -17,5 +17,8 @@ spec:
       containers:
       - image: postgres:15
         name: postgres
+        env:
+          - name: POSTGRES_PASSWORD
+            value: examplepassword
         ports:
         - containerPort: 2345
