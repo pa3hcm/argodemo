@@ -6,7 +6,7 @@ metadata:
   name: argodemo-svc
   namespace: argodemo
 spec:
-  type: nodePort
+  type: NodePort
   ports:
   - port: 80
     protocol: TCP
