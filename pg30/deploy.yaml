@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: pgdemo
+  name: pgdemo
+spec:
+  replicas: 30
+  selector:
+    matchLabels:
+      app: pgdemo
+  template:
+    metadata:
+      labels:
+        app: pgdemo
+    spec:
+      containers:
+      - image: postgres:15
+        name: postgres
+        ports:
+        - containerPort: 2345
