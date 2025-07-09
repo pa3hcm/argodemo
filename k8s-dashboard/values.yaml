@@ -189,7 +189,7 @@ api:
     repository: docker.io/kubernetesui/dashboard-api
     tag: 1.13.0
   scaling:
-    replicas: 1
+    replicas: 3
     revisionHistoryLimit: 10
   service:
     type: ClusterIP
