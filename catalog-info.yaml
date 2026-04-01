@@ -9,5 +9,6 @@ metadata:
       title: PA3HCM website
       icon: dashboard
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: development
+  owner: guests
