@@ -4,7 +4,10 @@ metadata:
   name: argodemo
   annotations:
     github.com/project-slug: pa3hcm/argodemo
-spec:
+  links:
+    - url: https://pa3hcm.nl/
+      title: PA3HCM website
+      icon: dashboardspec:
   type: website
   lifecycle: experimental
   owner: guests
