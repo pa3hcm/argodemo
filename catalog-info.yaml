@@ -7,7 +7,6 @@ metadata:
   links:
     - url: https://pa3hcm.nl/
       title: PA3HCM website
-      icon: dashboardspec:
   type: website
   lifecycle: experimental
   owner: guests
