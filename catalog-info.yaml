@@ -10,5 +10,5 @@ metadata:
       icon: dashboard
 spec:
   type: website
-  lifecycle: development
+  lifecycle: dev
   owner: guests
