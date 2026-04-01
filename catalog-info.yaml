@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argodemo
+  annotations:
+    github.com/project-slug: pa3hcm/argodemo
+  links:
+    - url: https://pa3hcm.nl/
+      title: PA3HCM website
+      icon: dashboard
+spec:
+  type: other
+  lifecycle: unknown
