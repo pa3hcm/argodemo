@@ -1,0 +1,7 @@
+site_name: "ArgoDemo documentation"
+
+nav:
+  - README: README.md
+
+plugins:
+  - techdocs-core
